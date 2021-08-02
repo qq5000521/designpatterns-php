@@ -8,7 +8,7 @@
 
 > GoF类图
 
-![原型模式](https://raw.githubusercontent.com/zhangyue0503/designpatterns-php/master/08.prototype/img/prototype.jpg)
+![原型模式](https://raw.githubusercontent.com/qq5000521/designpatterns-php/master/08.prototype/img/prototype.jpg)
 
 
 > 代码实现
@@ -72,7 +72,7 @@ $c->operation();
 
 *我们的手机操作系统（也可以想象一下PC电脑的操作系统），都是怎样安装到设备中呢？其实都是不停的复制拷贝最初的那一套系统。用微软的例子非常好说明这个问题，当年微软能够成为一个帝国，其实也是因为他不停的将winodws操作系统拷贝复制到光盘中，然后卖给千家万户（当然，这里没中国什么事儿）。而中国市场呢，大量的高手破解了windows之后也是由这一份文件不停的复制拷贝才装到了我们的电脑中。手机、智能设备等各类产品的操作系统、软件都是如此。一次开发无限拷贝正是软件行业暴利的原因。毕竟我们的系统也是由不少的工程师日以继夜的996在Android原生系统的基础上开发出来的，赶紧不断的复制到即将出厂的手机上吧！！*
 
-**完整代码：[https://github.com/zhangyue0503/designpatterns-php/blob/master/08.prototype/source/prototype.php](https://github.com/zhangyue0503/designpatterns-php/blob/master/08.prototype/source/prototype.php)**
+**完整代码：[https://github.com/qq5000521/designpatterns-php/blob/master/08.prototype/source/prototype.php](https://github.com/qq5000521/designpatterns-php/blob/master/08.prototype/source/prototype.php)**
 
 ## 实例
 
@@ -80,10 +80,10 @@ $c->operation();
 
 > 原型模式生产手机类图
 
-![原型模式生产手机](https://raw.githubusercontent.com/zhangyue0503/designpatterns-php/master/08.prototype/img/prototype-phone.jpg)
+![原型模式生产手机](https://raw.githubusercontent.com/qq5000521/designpatterns-php/master/08.prototype/img/prototype-phone.jpg)
 
 
-**完整源码：[https://github.com/zhangyue0503/designpatterns-php/blob/master/08.prototype/source/prototype-phone.php](https://github.com/zhangyue0503/designpatterns-php/blob/master/08.prototype/source/prototype-phone.php)**
+**完整源码：[https://github.com/qq5000521/designpatterns-php/blob/master/08.prototype/source/prototype-phone.php](https://github.com/qq5000521/designpatterns-php/blob/master/08.prototype/source/prototype-phone.php)**
 
 ```php
 <?php
