@@ -8,7 +8,7 @@
 
 > GoF类图
 
-![建造者模式](https://raw.githubusercontent.com/zhangyue0503/designpatterns-php/master/16.builder/img/builder.jpg)
+![建造者模式](https://raw.githubusercontent.com/qq5000521/designpatterns-php/master/16.builder/img/builder.jpg)
 
 
 > 代码实现
@@ -131,7 +131,7 @@ $p2->Show();
 
 *大家都知道，手机组装是一件复杂的过程，于是，不同型号的手机我们都有对应的图纸（Builder），将图纸和配件交给流水线上的工人（Director），他们就会根据图纸使用配件来生产出我们所需要的各种不同型号的手机（Product）。很明显，我们都是伟大的建造者，为我们的产业添砖加瓦！！！*
 
-**完整代码：[https://github.com/zhangyue0503/designpatterns-php/blob/master/16.builder/source/builder.php](https://github.com/zhangyue0503/designpatterns-php/blob/master/16.builder/source/builder.php)**
+**完整代码：[https://github.com/qq5000521/designpatterns-php/blob/master/16.builder/source/builder.php](https://github.com/qq5000521/designpatterns-php/blob/master/16.builder/source/builder.php)**
 
 ## 实例
 
@@ -139,10 +139,10 @@ $p2->Show();
 
 > 对话框类图
 
-![对话框功能建造者模式版](https://raw.githubusercontent.com/zhangyue0503/designpatterns-php/master/16.builder/img/builder-dialog.jpg)
+![对话框功能建造者模式版](https://raw.githubusercontent.com/qq5000521/designpatterns-php/master/16.builder/img/builder-dialog.jpg)
 
 
-**完整源码：[https://github.com/zhangyue0503/designpatterns-php/blob/master/16.builder/source/builder-dialog.php](https://github.com/zhangyue0503/designpatterns-php/blob/master/16.builder/source/builder-dialog.php)**
+**完整源码：[https://github.com/qq5000521/designpatterns-php/blob/master/16.builder/source/builder-dialog.php](https://github.com/qq5000521/designpatterns-php/blob/master/16.builder/source/builder-dialog.php)**
 
 ```php
 <?php
