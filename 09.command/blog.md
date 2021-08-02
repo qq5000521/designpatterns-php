@@ -8,7 +8,7 @@
 
 > GoF类图
 
-![命令模式](https://raw.githubusercontent.com/zhangyue0503/designpatterns-php/master/09.command/img/command.jpg)
+![命令模式](https://raw.githubusercontent.com/qq5000521/designpatterns-php/master/09.command/img/command.jpg)
 
 
 > 代码实现
@@ -92,7 +92,7 @@ $invoker->exec();
 - 其实这个饭店的例子已经非常清晰了，对于命令模式真是完美的解析
 - 那说好的可以下多份订单或者给多个厨师呢？别急，下面的代码帮助我们解决这个问题
 
-**完整代码：[https://github.com/zhangyue0503/designpatterns-php/blob/master/09.command/source/command.php](https://github.com/zhangyue0503/designpatterns-php/blob/master/09.command/source/command.php)**
+**完整代码：[https://github.com/qq5000521/designpatterns-php/blob/master/09.command/source/command.php](https://github.com/qq5000521/designpatterns-php/blob/master/09.command/source/command.php)**
 
 ```php
 <?php
@@ -216,7 +216,7 @@ $invoker->exec();
 
 *我们的手机工厂和餐厅其实并没有什么两样，当我们需要代工厂来制作手机时，也是先下订单，这个订单就可以看做是命令。在这个订单中，我们会规定好需要用到的配件，什么型号的CPU，什么型号的内存，预装什么系统之类的。然后代工厂的工人们就会根据这个订单来进行生产。在这个过程中，我不用关心是某一个工人还是一群工人来执行这个订单，我只需要将这个订单交给和我们对接的人就可以了，然后只管等着手机生产出来进行验收咯！！*
 
-**完整代码：[https://github.com/zhangyue0503/designpatterns-php/blob/master/09.command/source/command-up.php](https://github.com/zhangyue0503/designpatterns-php/blob/master/09.command/source/command-up.php)**
+**完整代码：[https://github.com/qq5000521/designpatterns-php/blob/master/09.command/source/command-up.php](https://github.com/qq5000521/designpatterns-php/blob/master/09.command/source/command-up.php)**
 
 ## 实例
 
@@ -224,10 +224,10 @@ $invoker->exec();
 
 > 短信发送类图
 
-![短信发送命令模式版](https://raw.githubusercontent.com/zhangyue0503/designpatterns-php/master/09.command/img/command-message.jpg)
+![短信发送命令模式版](https://raw.githubusercontent.com/qq5000521/designpatterns-php/master/09.command/img/command-message.jpg)
 
 
-**完整源码：[https://github.com/zhangyue0503/designpatterns-php/blob/master/09.command/source/command-message.php](https://github.com/zhangyue0503/designpatterns-php/blob/master/09.command/source/command-message.php)**
+**完整源码：[https://github.com/qq5000521/designpatterns-php/blob/master/09.command/source/command-message.php](https://github.com/qq5000521/designpatterns-php/blob/master/09.command/source/command-message.php)**
 
 ```php
 <?php
