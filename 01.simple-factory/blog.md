@@ -76,9 +76,9 @@ $productB->show();
 
 这里比较规范的写法可能是所有产品都会去实现一个统一的接口，然后客户端只知道接口的方法统一调用即可。不规范的话也可以不使用接口，返回各种不同的对象，类似于外观（Facade）模式进行统一的门面管理。
 
-![简单工厂-讲解](https://raw.githubusercontent.com/zhangyue0503/designpatterns-php/master/01.simple-factory/%08img/simple-factory.jpg)
+![简单工厂-讲解](https://raw.githubusercontent.com/qq5000521/designpatterns-php/master/01.simple-factory/%08img/simple-factory.jpg)
 
-**源码地址：[简单工厂基础类图实现](https://github.com/zhangyue0503/designpatterns-php/blob/master/01.simple-factory/source/simple-factory.php)**
+**源码地址：[简单工厂基础类图实现](https://github.com/qq5000521/designpatterns-php/blob/master/01.simple-factory/source/simple-factory.php)**
 
 ## 实例
 
@@ -86,7 +86,7 @@ $productB->show();
 
 > 类图
 
-![简单工厂-消息发送](https://raw.githubusercontent.com/zhangyue0503/designpatterns-php/master/01.simple-factory/%08img/simple-factory-message.jpg)
+![简单工厂-消息发送](https://raw.githubusercontent.com/qq5000521/designpatterns-php/master/01.simple-factory/%08img/simple-factory-message.jpg)
 
 > 代码
 
@@ -141,7 +141,7 @@ $message = MessageFactory::createMessage('Ali');
 echo $message->send('您有新的短消息，请查收');
 ```
 
-**源码地址：[简单工厂实例-短信发送工厂](https://github.com/zhangyue0503/designpatterns-php/blob/master/01.simple-factory/source/simple-factory-message.php)**
+**源码地址：[简单工厂实例-短信发送工厂](https://github.com/qq5000521/designpatterns-php/blob/master/01.simple-factory/source/simple-factory-message.php)**
 
 > 说明
 
