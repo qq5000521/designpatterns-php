@@ -8,7 +8,7 @@
 
 > GoF类图
 
-![门面模式](https://raw.githubusercontent.com/zhangyue0503/designpatterns-php/master/19.facade/img/facade.jpg)
+![门面模式](https://raw.githubusercontent.com/qq5000521/designpatterns-php/master/19.facade/img/facade.jpg)
 
 
 > 代码实现
@@ -94,7 +94,7 @@ $facade->MethodB();
 
 *光卖我们的手机可不行，向X米一样做高科技的家电企业才是我们最终的目标。不过那么多的家电产品我们可生产不过来，于是，我们决定做一个商城（Facade）让一些质量非常好的商家加入我们的阵营，将他们的产品（SubSystem）放到商城中一起卖。当然，这些商品可是经过我们慎重挑选的，绝对都是优品中的优品哦！！*
 
-**完整代码：[https://github.com/zhangyue0503/designpatterns-php/blob/master/19.facade/source/facade.php](https://github.com/zhangyue0503/designpatterns-php/blob/master/19.facade/source/facade.php)**
+**完整代码：[https://github.com/qq5000521/designpatterns-php/blob/master/19.facade/source/facade.php](https://github.com/qq5000521/designpatterns-php/blob/master/19.facade/source/facade.php)**
 
 ## 实例
 
@@ -102,10 +102,10 @@ $facade->MethodB();
 
 > 短信发送类图
 
-![短信发送功能门面模式版](https://raw.githubusercontent.com/zhangyue0503/designpatterns-php/master/19.facade/img/facade-push.jpg)
+![短信发送功能门面模式版](https://raw.githubusercontent.com/qq5000521/designpatterns-php/master/19.facade/img/facade-push.jpg)
 
 
-**完整源码：[https://github.com/zhangyue0503/designpatterns-php/blob/master/19.facade/source/facade-push.php](https://github.com/zhangyue0503/designpatterns-php/blob/master/19.facade/source/facade-push.php)**
+**完整源码：[https://github.com/qq5000521/designpatterns-php/blob/master/19.facade/source/facade-push.php](https://github.com/qq5000521/designpatterns-php/blob/master/19.facade/source/facade-push.php)**
 
 ```php
 <?php
