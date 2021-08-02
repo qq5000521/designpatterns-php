@@ -8,7 +8,7 @@
 
 > GoF类图
 
-![代理模式](https://raw.githubusercontent.com/zhangyue0503/designpatterns-php/master/12.proxy/img/proxy.jpg)
+![代理模式](https://raw.githubusercontent.com/qq5000521/designpatterns-php/master/12.proxy/img/proxy.jpg)
 
 
 > 代码实现
@@ -56,7 +56,7 @@ $proxy->Request();
 
 **
 
-**完整代码：[https://github.com/zhangyue0503/designpatterns-php/blob/master/12.proxy/source/proxy.php](https://github.com/zhangyue0503/designpatterns-php/blob/master/12.proxy/source/proxy.php)**
+**完整代码：[https://github.com/qq5000521/designpatterns-php/blob/master/12.proxy/source/proxy.php](https://github.com/qq5000521/designpatterns-php/blob/master/12.proxy/source/proxy.php)**
 
 ## 实例
 
@@ -64,10 +64,10 @@ $proxy->Request();
 
 > 短信发送类图
 
-![短信发送代理模式版](https://raw.githubusercontent.com/zhangyue0503/designpatterns-php/master/12.proxy/img/proxy-msg.jpg)
+![短信发送代理模式版](https://raw.githubusercontent.com/qq5000521/designpatterns-php/master/12.proxy/img/proxy-msg.jpg)
 
 
-**完整源码：[https://github.com/zhangyue0503/designpatterns-php/blob/master/12.proxy/source/proxy-msg.php](https://github.com/zhangyue0503/designpatterns-php/blob/master/12.proxy/source/proxy-msg.php)**
+**完整源码：[https://github.com/qq5000521/designpatterns-php/blob/master/12.proxy/source/proxy-msg.php](https://github.com/qq5000521/designpatterns-php/blob/master/12.proxy/source/proxy-msg.php)**
 
 ```php
 <?php
