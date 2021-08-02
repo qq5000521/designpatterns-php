@@ -8,7 +8,7 @@
 
 > GoF类图
 
-![享元模式](https://raw.githubusercontent.com/zhangyue0503/designpatterns-php/master/13.flyweights/img/flyweights.jpg)
+![享元模式](https://raw.githubusercontent.com/qq5000521/designpatterns-php/master/13.flyweights/img/flyweights.jpg)
 
 
 > 代码实现
@@ -85,7 +85,7 @@ $flD->operation(--$extrinsicState);
 
 *还是说到科技以换壳为本这件事上。毕竟，大家都还是喜欢各种颜色的手机来彰显自己的个性。之前说过，如果每种颜色我们都要做一条生产线的话那岂不是一项巨大的投入。还好，每个型号我们的工厂（享元工厂）只生产最基本的背景壳（对象），然后通过专门的印刷线（状态变化）来进行上色不就好啦！嗯，下一款Iphone早晚也会模仿我们的，看来我们得先把各种金、各种土豪色集齐才行，说不定还能召唤神龙呢！！*
 
-**完整代码：[https://github.com/zhangyue0503/designpatterns-php/blob/master/13.flyweights/source/flyweights.php](https://github.com/zhangyue0503/designpatterns-php/blob/master/13.flyweights/source/flyweights.php)**
+**完整代码：[https://github.com/qq5000521/designpatterns-php/blob/master/13.flyweights/source/flyweights.php](https://github.com/qq5000521/designpatterns-php/blob/master/13.flyweights/source/flyweights.php)**
 
 ## 实例
 
@@ -93,10 +93,10 @@ $flD->operation(--$extrinsicState);
 
 > 短信发送类图
 
-![短信发送享元模式版](https://raw.githubusercontent.com/zhangyue0503/designpatterns-php/master/13.flyweights/img/flyweights-message.jpg)
+![短信发送享元模式版](https://raw.githubusercontent.com/qq5000521/designpatterns-php/master/13.flyweights/img/flyweights-message.jpg)
 
 
-**完整源码：[https://github.com/zhangyue0503/designpatterns-php/blob/master/13.flyweights/source/flyweights-message.php](https://github.com/zhangyue0503/designpatterns-php/blob/master/13.flyweights/source/flyweights-message.php)**
+**完整源码：[https://github.com/qq5000521/designpatterns-php/blob/master/13.flyweights/source/flyweights-message.php](https://github.com/qq5000521/designpatterns-php/blob/master/13.flyweights/source/flyweights-message.php)**
 
 ```php
 
