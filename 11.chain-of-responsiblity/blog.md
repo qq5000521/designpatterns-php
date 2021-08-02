@@ -8,7 +8,7 @@
 
 > GoF类图
 
-![责任链模式](https://raw.githubusercontent.com/zhangyue0503/designpatterns-php/master/11.chain-of-responsiblity/img/chain.jpg)
+![责任链模式](https://raw.githubusercontent.com/qq5000521/designpatterns-php/master/11.chain-of-responsiblity/img/chain.jpg)
 
 
 > 代码实现
@@ -86,7 +86,7 @@ foreach ($requests as $request) {
 
 *我们一直在说手机制造这个行业，之前我们一直是交给代工厂来进行手机的组装生产，这回，我们自己建立了一条流水线。而这个流水线，就非常像责任链模式，怎么说呢，从一台手机的装配说起。有操作员将手机主板（初始请求）放到流水线上，然后工人开始添加内存、CPU、摄像头（各种责任链条类进行处理），期间也会经过测试和调整以达到最佳出厂性能。最后拼装成一台完整的手机交到客户的手中，这种工作流是不是和责任链非常相似呢！！*
 
-**完整代码：[https://github.com/zhangyue0503/designpatterns-php/blob/master/11.chain-of-responsiblity/source/chain.php](https://github.com/zhangyue0503/designpatterns-php/blob/master/11.chain-of-responsiblity/source/chain.php)**
+**完整代码：[https://github.com/qq5000521/designpatterns-php/blob/master/11.chain-of-responsiblity/source/chain.php](https://github.com/qq5000521/designpatterns-php/blob/master/11.chain-of-responsiblity/source/chain.php)**
 
 ## 实例
 
@@ -94,10 +94,10 @@ foreach ($requests as $request) {
 
 > 短信发送类图
 
-![短信过滤责任链模式版](https://raw.githubusercontent.com/zhangyue0503/designpatterns-php/master/11.chain-of-responsiblity/img/chain-filter-message.jpg)
+![短信过滤责任链模式版](https://raw.githubusercontent.com/qq5000521/designpatterns-php/master/11.chain-of-responsiblity/img/chain-filter-message.jpg)
 
 
-**完整源码：[https://github.com/zhangyue0503/designpatterns-php/blob/master/11.chain-of-responsiblity/source/chain-filter-message.php](https://github.com/zhangyue0503/designpatterns-php/blob/master/11.chain-of-responsiblity/source/chain-filter-message.php)**
+**完整源码：[https://github.com/qq5000521/designpatterns-php/blob/master/11.chain-of-responsiblity/source/chain-filter-message.php](https://github.com/qq5000521/designpatterns-php/blob/master/11.chain-of-responsiblity/source/chain-filter-message.php)**
 
 ```php
 // 词汇过滤链条
