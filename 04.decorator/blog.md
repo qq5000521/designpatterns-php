@@ -10,7 +10,7 @@
 
 > GoF类图
 
-![装饰器方法结构类图](https://raw.githubusercontent.com/zhangyue0503/designpatterns-php/master/04.decorator/img/decorator.jpg)
+![装饰器方法结构类图](https://raw.githubusercontent.com/qq5000521/designpatterns-php/master/04.decorator/img/decorator.jpg)
 
 > 代码实现
 
@@ -70,7 +70,7 @@ class ConcreteDecoratorB extends Decorator{
 
 *手机这玩意干不过某米、某O、某为，这没法玩呀，好吧，哥们去专心做手机壳吧！嗯，我先准备了一个透明壳（Component），貌似有点丑，没办法，谁叫哥们穷。给某米的加上各种纯色（DecoratorA1），然后背后印上各种颜色的植物（DecoratorB1）吧；某O的手机最近喜欢找流量明显做代言，那我给他的手机壳就用各种炫彩色（DecoratorA2）和明星的卡通头像（DecoratorB2）；最后的某为，好像手机已经开始引领业界潮流了，折叠屏这玩意不是要砸我这卖手机壳的生意嘛！！好吧，哥不给你们做了，还是跟我的某米、某O混去吧！！*
 
-**完整代码：[装饰器模式](https://github.com/zhangyue0503/designpatterns-php/blob/master/04.decorator/source/decorator.php)**
+**完整代码：[装饰器模式](https://github.com/qq5000521/designpatterns-php/blob/master/04.decorator/source/decorator.php)**
 
 ## 实例
 
@@ -80,10 +80,10 @@ class ConcreteDecoratorB extends Decorator{
 
 > 短信发送类图
 
-![短信发送装饰器方法](https://raw.githubusercontent.com/zhangyue0503/designpatterns-php/master/04.decorator/img/message-decorator.jpg)
+![短信发送装饰器方法](https://raw.githubusercontent.com/qq5000521/designpatterns-php/master/04.decorator/img/message-decorator.jpg)
 
 
-**完整源码：[短信发送装饰器方法](https://github.com/zhangyue0503/designpatterns-php/blob/master/04.decorator/source/message-decorator.php)**
+**完整源码：[短信发送装饰器方法](https://github.com/qq5000521/designpatterns-php/blob/master/04.decorator/source/message-decorator.php)**
 
 ```php
 <?php
