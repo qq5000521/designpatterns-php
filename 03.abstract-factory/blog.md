@@ -10,7 +10,7 @@
 
 > GoF类图
 
-![工厂方法结构类图](https://raw.githubusercontent.com/zhangyue0503/designpatterns-php/master/03.abstract-factory/img/abstract-factory.jpg)
+![工厂方法结构类图](https://raw.githubusercontent.com/qq5000521/designpatterns-php/master/03.abstract-factory/img/abstract-factory.jpg)
 
 - 左边是两个工厂1和2，都继承一个抽象工厂，都实现了CreateProductA和CreateProductB方法
 - 工厂1生产的是ProductA1和ProductB1
@@ -108,7 +108,7 @@ class ConcreteFactory2 implements AbstractFactory
 
 *我们的手机品牌起来了，所以周边如手机膜、手机壳也交给了富X康（AbstractFactory）来帮我搞定。上回说到，我已经有几款不同类型的手机了，于是还是按原来那样，衡阳工厂（Factory1）生产型号1001的手机（ProductA1），同时型号1001手机的手机膜（ProductB1）和手机壳（ProductC1）也是衡阳工厂生产出来。而型号1002的手机（ProductA2）还是在郑州工厂（Factory2），这个型号的手机膜（ProductB2）和手机膜（ProductC2）也就交给他们来搞定吧。于是，我还是只去跟总厂下单，他们让不同的工厂给我生产了一整套的手机产品，可以直接卖套装咯！！*
 
-**完整代码：[抽象工厂模式](https://github.com/zhangyue0503/designpatterns-php/blob/master/03.abstract-factory/source/abstract-factory.php)**
+**完整代码：[抽象工厂模式](https://github.com/qq5000521/designpatterns-php/blob/master/03.abstract-factory/source/abstract-factory.php)**
 
 ## 实例
 
@@ -118,7 +118,7 @@ class ConcreteFactory2 implements AbstractFactory
 
 > 短信发送类图
 
-![短信发送抽象工厂方法](https://raw.githubusercontent.com/zhangyue0503/designpatterns-php/master/03.abstract-factory/img/abstract-factory-message.jpg)
+![短信发送抽象工厂方法](https://raw.githubusercontent.com/qq5000521/designpatterns-php/master/03.abstract-factory/img/abstract-factory-message.jpg)
 
 ```php
 <?php
@@ -223,7 +223,7 @@ echo $push->send('您有新的红包已到帐，请查收！');
 
 ```
 
-**完整源码：[短信发送工厂方法](https://github.com/zhangyue0503/designpatterns-php/blob/master/03.abstract-factory/source/abstract-factory-message-push.php)**
+**完整源码：[短信发送工厂方法](https://github.com/qq5000521/designpatterns-php/blob/master/03.abstract-factory/source/abstract-factory-message-push.php)**
 
 > 说明
 
