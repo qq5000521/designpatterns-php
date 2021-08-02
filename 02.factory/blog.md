@@ -10,7 +10,7 @@
 
 > GoF类图
 
-![工厂方法结构类图](https://github.com/zhangyue0503/designpatterns-php/raw/master/02.factory/img/factory.jpg)
+![工厂方法结构类图](https://github.com/qq5000521/designpatterns-php/raw/master/02.factory/img/factory.jpg)
 
 - 类图中的Product为产品
 - 类图中的Creator为创建者
@@ -64,7 +64,7 @@ class ConcreteCreatorA extends Creator{
 
 *同样还是拿手机来比喻：我是一个卖手机的批发商（客户Client，业务方），我需要一批手机（产品ProductA），于是我去让富X康（工厂Creator）来帮我生产。我跟富士康说明了需求，富士康说好的，让我的衡阳工厂（ConcreteCreatorA）来搞定，不需要总厂上，你这小单子，洒洒水啦。然后过了一阵我又需要另一种型号的手机（产品ProductB），富士康看了看后又让郑州富士康（ConcreteCreatorB）来帮我生产。反正不管怎么样，他们总是给了我对应的手机。而且郑州工厂并不知道衡阳工厂生产过什么或者有没有跟我合作过，这一切只有我和总工厂知道。*
 
-**完整代码：[工厂方法模式](https://github.com/zhangyue0503/designpatterns-php/blob/master/02.factory/source/factory.php)**
+**完整代码：[工厂方法模式](https://github.com/qq5000521/designpatterns-php/blob/master/02.factory/source/factory.php)**
 
 ## 实例
 
@@ -72,7 +72,7 @@ class ConcreteCreatorA extends Creator{
 
 > 短信发送类图
 
-![短信发送工厂方法](https://github.com/zhangyue0503/designpatterns-php/raw/master/02.factory/img/factory-message.jpg)
+![短信发送工厂方法](https://github.com/qq5000521/designpatterns-php/raw/master/02.factory/img/factory-message.jpg)
 
 > 代码实现
 
@@ -139,7 +139,7 @@ $message = $factory->getMessage();
 echo $message->send('您有新的短消息，请查收');
 ```
 
-**完整源码：[短信发送工厂方法](https://github.com/zhangyue0503/designpatterns-php/blob/master/02.factory/source/factory-message.php)**
+**完整源码：[短信发送工厂方法](https://github.com/qq5000521/designpatterns-php/blob/master/02.factory/source/factory-message.php)**
 
 > 说明
 
