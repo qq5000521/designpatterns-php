@@ -8,7 +8,7 @@
 
 > GoF类图
 
-![迭代器模式](https://raw.githubusercontent.com/zhangyue0503/designpatterns-php/master/07.iterator/img/iterator.jpg)
+![迭代器模式](https://raw.githubusercontent.com/qq5000521/designpatterns-php/master/07.iterator/img/iterator.jpg)
 
 
 > 代码实现
@@ -96,7 +96,7 @@ while (!$iterator->IsDone()) {
 
 *我们的手机工厂不得了，自己组装了一条生产线，这条生产线主要是做什么的呢？成型机我们已经交给富X康来搞定了，我们这条线就是给手机刷颜色的。当我们把所有已经交货的手机（Aggregate）放到不同的生产线后（Iterator），就会一台一台的帮我们刷上当前生产线的颜色，是不是很强大！！科技不止于换壳，这条线还在，我们就可以再做别的事儿，比如加点挂绳什么的，反正只要能一台一台的通过我就能装上东西，你说好用不好用！！*
 
-**完整代码：[https://github.com/zhangyue0503/designpatterns-php/blob/master/07.iterator/source/iterator.php](https://github.com/zhangyue0503/designpatterns-php/blob/master/07.iterator/source/iterator.php)**
+**完整代码：[https://github.com/qq5000521/designpatterns-php/blob/master/07.iterator/source/iterator.php](https://github.com/qq5000521/designpatterns-php/blob/master/07.iterator/source/iterator.php)**
 
 ## 实例
 
@@ -104,10 +104,10 @@ while (!$iterator->IsDone()) {
 
 > 消息发送迭代器类图
 
-![消息发送迭代器](https://raw.githubusercontent.com/zhangyue0503/designpatterns-php/master/07.iterator/img/iterator-msg.jpg)
+![消息发送迭代器](https://raw.githubusercontent.com/qq5000521/designpatterns-php/master/07.iterator/img/iterator-msg.jpg)
 
 
-**完整源码：[https://github.com/zhangyue0503/designpatterns-php/blob/master/07.iterator/source/iterator-msg.php](https://github.com/zhangyue0503/designpatterns-php/blob/master/07.iterator/source/iterator-msg.php)**
+**完整源码：[https://github.com/qq5000521/designpatterns-php/blob/master/07.iterator/source/iterator-msg.php](https://github.com/qq5000521/designpatterns-php/blob/master/07.iterator/source/iterator-msg.php)**
 
 ```php
 <?php
@@ -241,7 +241,7 @@ while (!$iteratorB->IsDone()) {
 - 例子中我们还是对一个数组的操作，另外用两个类似于工厂方法模式的类来对迭代器进行封装
 - 例子非常简单，但有时候这种用法也非常实用，比如一些搜索引擎排名的爬虫，多次确认某些关键词的排名，这时候我们就可以正着、反着来回进行验证
 
-**完整源码：[https://github.com/zhangyue0503/designpatterns-php/blob/master/06.observer/source/spl_observer.php](https://github.com/zhangyue0503/designpatterns-php/blob/master/06.observer/source/spl_observer.php)**
+**完整源码：[https://github.com/qq5000521/designpatterns-php/blob/master/06.observer/source/spl_observer.php](https://github.com/qq5000521/designpatterns-php/blob/master/06.observer/source/spl_observer.php)**
 
 > 彩蛋
 
@@ -249,7 +249,7 @@ PHP中的Iterator接口已经为我们准备好了一套标准的Iterator模式�
 
 文档：[https://www.php.net/manual/zh/class.iterator.php](https://www.php.net/manual/zh/class.iterator.php)
 
-源码：[https://github.com/zhangyue0503/designpatterns-php/blob/master/07.iterator/source/iterator-php.php](https://github.com/zhangyue0503/designpatterns-php/blob/master/07.iterator/source/iterator-php.php)
+源码：[https://github.com/qq5000521/designpatterns-php/blob/master/07.iterator/source/iterator-php.php](https://github.com/qq5000521/designpatterns-php/blob/master/07.iterator/source/iterator-php.php)
 
 文档中相关的接口都可以看看，更重要的是，PHP的SPL扩展中，也为我们准备了很多常用的迭代器封装。要知道，面试的时候要是能说出这里面的几个来，那面试官可是也会刮目相看的哦！
 
