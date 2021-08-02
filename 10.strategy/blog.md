@@ -8,7 +8,7 @@
 
 > GoF类图
 
-![策略模式](https://raw.githubusercontent.com/zhangyue0503/designpatterns-php/master/10.strategy/img/strategy.jpg)
+![策略模式](https://raw.githubusercontent.com/qq5000521/designpatterns-php/master/10.strategy/img/strategy.jpg)
 
 
 > 代码实现
@@ -79,7 +79,7 @@ $context->ContextInterface();
 
 *既然和简单工厂如此的相像，那么我们也按照简单工厂的方式来说：我们是一个手机厂商（Client），想找某工厂（ConcreteStrategy）来做一批手机，通过渠道商（Context）向这个工厂下单制造手机，渠道商直接去联系代工厂（Strategy），并且直接将生产完成的手机发货给我（ContextInterface()）。同样的，我不用关心他们的具体实现，我只要监督那个和我们联系的渠道商就可以啦，是不是很省心！*
 
-**完整代码：[https://github.com/zhangyue0503/designpatterns-php/blob/master/10.strategy/source/strategy.php](https://github.com/zhangyue0503/designpatterns-php/blob/master/10.strategy/source/strategy.php)**
+**完整代码：[https://github.com/qq5000521/designpatterns-php/blob/master/10.strategy/source/strategy.php](https://github.com/qq5000521/designpatterns-php/blob/master/10.strategy/source/strategy.php)**
 
 ## 实例
 
@@ -87,10 +87,10 @@ $context->ContextInterface();
 
 > 短信发送类图
 
-![短信发送策略模式版](https://raw.githubusercontent.com/zhangyue0503/designpatterns-php/master/10.strategy/img/strategy-message.jpg)
+![短信发送策略模式版](https://raw.githubusercontent.com/qq5000521/designpatterns-php/master/10.strategy/img/strategy-message.jpg)
 
 
-**完整源码：[https://github.com/zhangyue0503/designpatterns-php/blob/master/10.strategy/source/strategy-message.php](https://github.com/zhangyue0503/designpatterns-php/blob/master/10.strategy/source/strategy-message.php)**
+**完整源码：[https://github.com/qq5000521/designpatterns-php/blob/master/10.strategy/source/strategy-message.php](https://github.com/qq5000521/designpatterns-php/blob/master/10.strategy/source/strategy-message.php)**
 
 ```php
 <?php
